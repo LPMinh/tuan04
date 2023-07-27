@@ -1,0 +1,5 @@
+package com.minh.courseservice.controller;
+
+public class LoginService {
+
+}

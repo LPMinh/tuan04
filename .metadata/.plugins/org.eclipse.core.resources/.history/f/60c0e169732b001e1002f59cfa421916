@@ -1,0 +1,5 @@
+package com.minh.userservice.service;
+
+public class UserServiceImp {
+
+}

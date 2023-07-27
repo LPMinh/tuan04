@@ -1,0 +1,5 @@
+package com.minh.userservice.repository;
+
+public interface UserRepository {
+
+}

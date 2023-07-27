@@ -1,0 +1,12 @@
+package com.minh.courseservice.service;
+
+public class LoginServiceImp implements LoginService{
+    private final RestTemplate restTemplate;
+
+	@Override
+	public boolean login(String email, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.minh.courseservice.service;
+
+import org.springframework.web.client.RestTemplate;
+
+public class LoginServiceImp implements LoginService{
+    private final RestTemplate restTemplate = new RestTemplate();
+
+	@Override
+	public boolean login(String email, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

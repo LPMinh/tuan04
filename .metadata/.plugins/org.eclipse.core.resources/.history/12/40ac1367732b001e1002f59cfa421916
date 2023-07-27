@@ -1,0 +1,12 @@
+package com.minh.userservice.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.minh.userservice.entity.User;
+
+public interface UserService {
+	public ResponseEntity<User> saveUser(User user);
+	public ResponseEntity<User> updateUser(User user);
+	public boolean deleteUserByID(long id);
+	public ResponseEntity<User> findUserByID(long id);
+}

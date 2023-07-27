@@ -1,0 +1,5 @@
+package com.minh.courseservice.service;
+
+public class LoginServiceImp {
+
+}
